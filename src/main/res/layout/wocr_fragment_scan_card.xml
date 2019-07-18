@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:keepScreenOn="true"
+        android:layout_height="match_parent"
+        tools:context=".ui.ScanCardActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/wocr_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            tools:visibility="visible">
+
+        <include layout="@layout/wocr_include_card_detection_layout"
+                 app:layout_constraintTop_toTopOf="parent"
+                 app:layout_constraintLeft_toLeftOf="parent"
+                 app:layout_constraintRight_toRightOf="parent"
+                 app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="#aa222222"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+
+            <ImageView
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    app:srcCompat="@drawable/ic_arrow_back_white_24dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:gravity="center"
+                          android:orientation="vertical"
+                          app:layout_constraintTop_toTopOf="parent"
+                          app:layout_constraintBottom_toBottomOf="parent"
+                          app:layout_constraintLeft_toLeftOf="parent"
+                          android:id="@+id/wocr_linearlayout"
+                          tools:layout_editor_absoluteY="16dp">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Scan your card"
+                          android:textSize="20sp"
+                          android:textStyle="bold"
+                          android:textColor="@android:color/white"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="14sp"
+                          android:layout_marginTop="8dp"
+                          android:textColor="@android:color/white"
+                          android:text="Ensure card number is visible"/>
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/wocr_iv_flash_id"
+                style="@style/wocr_FlashButton"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/wocr_ic_flash"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="gone"
+                tools:ignore="RtlHardcoded"/>
+
+        <Button
+                style="@style/wocr_EnterManuallyButton"
+                android:id="@+id/wocr_tv_enter_card_number_id"
+                android:layout_width="322dp"
+                android:layout_height="45dp"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="32dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="@string/wocr_button_enter_card_number"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate
+            android:id="@+id/wocr_progress_bar"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:visibility="visible"/>
+
+</FrameLayout>

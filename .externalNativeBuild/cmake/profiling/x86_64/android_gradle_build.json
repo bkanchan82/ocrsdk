@@ -1,0 +1,873 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/SampleApp/TestingProject/sdk/src/main/cpp/CMakeLists.txt",
+		"D:/SampleApp/TestingProject/sdk/src/main/cpp/armneon2x86sse/CMakeLists.txt",
+		"D:/SampleApp/TestingProject/sdk/src/main/cpp/eigen/CMakeLists.txt",
+		"D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/CMakeLists.txt",
+		"D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/CMakeLists.txt",
+		"D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/CMakeLists.txt",
+		"D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\kanch\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\SampleApp\\TestingProject\\sdk\\.externalNativeBuild\\cmake\\profiling\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"caffe-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "caffe",
+			"buildCommand" : "C:\\Users\\kanch\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\SampleApp\\TestingProject\\sdk\\.externalNativeBuild\\cmake\\profiling\\x86_64 --target caffe",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/blob.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/common.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layer_factory.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/base_conv_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/base_data_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/bnll_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/concat_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/conv_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/eltwise_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/flatten_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/im2col_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/inner_product_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/loss_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/lrn_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/memory_data_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/neuron_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/pooling_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/power_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/relu_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/sigmoid_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/softmax_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/softmax_loss_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/split_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/layers/tanh_layer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/net.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/proto/caffe.pb.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/syncedmem.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/util/im2col.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/util/insert_splits.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/util/io.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/util/math_functions.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\Caffe -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/caffe/Caffe/util/upgrade_proto.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				}
+			],
+			"output" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64/caffe/libcaffe.a",
+			"toolchain" : "2241818909"
+		},
+		"cardrecognizer-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "cardrecognizer",
+			"buildCommand" : "C:\\Users\\kanch\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\SampleApp\\TestingProject\\sdk\\.externalNativeBuild\\cmake\\profiling\\x86_64 --target cardrecognizer",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardrecognizer_EXPORTS -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/CardRecognizer-jni.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				}
+			],
+			"output" : "D:/SampleApp/TestingProject/sdk/build/intermediates/cmake/profiling/obj/x86_64/libcardrecognizer.so",
+			"toolchain" : "2241818909"
+		},
+		"crossplatform-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "crossplatform",
+			"buildCommand" : "C:\\Users\\kanch\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\SampleApp\\TestingProject\\sdk\\.externalNativeBuild\\cmake\\profiling\\x86_64 --target crossplatform",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor/CaffeDatum.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor/CaffeDatumList.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor/CaffeNeuralNetwork.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor/CaffeObjectFactory.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor/CaffeResult.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor/CaffeResultList.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CV/canny.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CV/hough.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/CV/warp.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/DateRecognizer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/EdgesDetector.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/FrameStorage.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/NameRecognizer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/NumberRecognizer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/RecognitionCore.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/RecognitionResult.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer/Utils.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/ServiceContainer.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/CrossPlatform/Torch/TorchManager.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/jniImpl/RecognitionCoreDelegate.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DCPU_ONLY -DHAVE_NEON_X86=1 -DUSE_EIGEN -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CaffePredictor -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\CV -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\NeuralNetwork -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Public -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Include\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Recognizer -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\CrossPlatform\\Torch -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\crossplatform\\jniImpl -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\armneon2x86sse -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\eigen\\Eigen -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\caffe\\include -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include -isystem D:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\include\\opencv  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -Wno-unknown-attributes -Wno-deprecated-declarations -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/crossplatform/jniImpl/TorchDelegate.cpp",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				}
+			],
+			"output" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64/crossplatform/libcrossplatform.a",
+			"toolchain" : "2241818909"
+		},
+		"libcpufeatures-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libcpufeatures",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/3rdparty/libs/x86_64/libcpufeatures.a",
+			"toolchain" : "2241818909"
+		},
+		"libyuv-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libyuv",
+			"buildCommand" : "C:\\Users\\kanch\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\SampleApp\\TestingProject\\sdk\\.externalNativeBuild\\cmake\\profiling\\x86_64 --target libyuv",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/compare.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/compare_common.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/compare_gcc.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/compare_mmi.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/compare_msa.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/compare_neon64.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/convert.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/convert_argb.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/convert_from.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/convert_from_argb.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/convert_to_argb.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/convert_to_i420.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/cpu_id.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/planar_functions.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate_any.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate_argb.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate_common.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate_gcc.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate_mmi.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate_msa.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/rotate_neon64.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/row_any.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/row_common.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/row_gcc.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/row_mmi.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/row_msa.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/row_neon64.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale_any.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale_argb.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale_common.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale_gcc.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale_mmi.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale_msa.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/scale_neon64.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\libyuv\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/libyuv/source/video_common.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				}
+			],
+			"output" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64/libyuv/liblibyuv.a",
+			"toolchain" : "2241818909"
+		},
+		"opencv_core-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_core",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86_64/libopencv_core.a",
+			"toolchain" : "2241818909"
+		},
+		"opencv_imgcodecs-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86_64/libopencv_imgcodecs.a",
+			"toolchain" : "2241818909"
+		},
+		"opencv_imgproc-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86_64/libopencv_imgproc.a",
+			"toolchain" : "2241818909"
+		},
+		"opencv_ml-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_ml",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86_64/libopencv_ml.a",
+			"toolchain" : "2241818909"
+		},
+		"opencv_objdetect-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86_64/libopencv_objdetect.a",
+			"toolchain" : "2241818909"
+		},
+		"opencv_videoio-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86_64/libopencv_videoio.a",
+			"toolchain" : "2241818909"
+		},
+		"protobuf-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "protobuf",
+			"buildCommand" : "C:\\Users\\kanch\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\SampleApp\\TestingProject\\sdk\\.externalNativeBuild\\cmake\\profiling\\x86_64 --target protobuf",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/descriptor.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/descriptor_database.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/descriptor.pb.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/dynamic_message.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/extension_set.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/extension_set_heavy.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/generated_message_reflection.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/generated_message_util.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/coded_stream.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/gzip_stream.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/printer.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/tokenizer.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/zero_copy_stream.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl_lite.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/message.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/message_lite.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/reflection_ops.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/repeated_field.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/service.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/common.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/once.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/structurally_valid.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/strutil.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/stubs/substitute.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/text_format.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/unknown_field_set.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/wire_format.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -ID:\\SampleApp\\TestingProject\\sdk\\src\\main\\cpp\\protobuf\\GoogleProtobuf  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error=return-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std=c++11  -c ",
+					"src" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/protobuf/GoogleProtobuf/google/protobuf/wire_format_lite.cc",
+					"workingDirectory" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64"
+				}
+			],
+			"output" : "D:/SampleApp/TestingProject/sdk/.externalNativeBuild/cmake/profiling/x86_64/protobuf/libprotobuf.a",
+			"toolchain" : "2241818909"
+		},
+		"tbb-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "tbb",
+			"buildType" : "release",
+			"output" : "D:/SampleApp/TestingProject/sdk/src/main/cpp/opencv2/sdk/native/3rdparty/libs/x86_64/libtbb.a",
+			"toolchain" : "2241818909"
+		}
+	},
+	"toolchains" : 
+	{
+		"2241818909" : 
+		{
+			"cCompilerExecutable" : "C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/kanch/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
